@@ -43,12 +43,13 @@
 
 @layer tokens {
   :root {
-    --color-main: #964F49;
-    --color-main-dark: #62140A;
+    /*--color-main: #964F49;*/
+    --color-main: #5abbc1;
+    --color-main-dark: #023b4a;
     --color-secondary-soft: #7BB1B3;
     --color-secondary-dark: #244058;
-    --color-orange-secondary: #BE5114;
-    --color-orange-secondary-soft: #ff823c;
+    --color-orange-secondary: #c13629;
+    --color-orange-secondary-soft: #c13629;
     --color-ink: #2f3743;
     --color-ink-soft: #403a32;
     --color-paper: #fbf6ed;
