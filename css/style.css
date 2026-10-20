@@ -1165,19 +1165,6 @@
     outline-offset: 4px;
   }
 
-  .digest-photo {
-    inline-size: 100%;
-    max-block-size: 44rem;
-    object-fit: contain;
-    border-radius: var(--radius-sm);
-  }
-
-  .digest-photo__caption {
-    color: var(--color-ink-soft);
-    font-size: var(--step--1);
-    text-align: right;
-  }
-
   .expert-dossier {
     grid-template-columns: minmax(12rem, 16rem) 1px minmax(0, 1fr);
   }
@@ -1330,23 +1317,6 @@
 
   .conclusion-list p + p {
     margin-block-start: var(--space-md);
-  }
-
-  .site-footer {
-    padding-block: 2.5rem;
-    background: var(--color-secondary-dark);
-    color: var(--color-paper-elevated);
-  }
-
-  .site-footer .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: var(--space-md);
-  }
-
-  .site-footer a {
-    color: inherit;
   }
 
   @media (max-width: 1199px) {
